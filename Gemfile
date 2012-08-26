@@ -6,6 +6,7 @@ gem 'rails', '3.2.7'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3', '1.3.6'
+gem 'mysql2'
 # gem 'sqlite3', '1.3.6', :group => :development
 
 
@@ -19,6 +20,10 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
+end
+
+group :development do
+	gem 'pg' 
 end
 
 gem 'jquery-rails'
