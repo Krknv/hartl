@@ -7,6 +7,7 @@ gem 'rails', '3.2.7'
 
 # gem 'sqlite3', '1.3.6'
 gem 'mysql2'
+gem 'heroku'
 # gem 'sqlite3', '1.3.6', :group => :development
 
 
@@ -24,7 +25,8 @@ end
 
 group :development do
 	gem 'sqlite3', '1.3.6'
-# 	gem 'pg' 
+# gem 'postgres-pr'
+ 	gem 'pg'
 end
 
 gem 'jquery-rails'

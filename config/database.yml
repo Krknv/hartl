@@ -9,17 +9,22 @@
 #   pool: 5
 #   timeout: 5000
 
-development:
-  adapter: mysql2
-  encoding: utf8
-  reconnect: false
-  database: rubystack_development
-  pool: 5
-  username: root
-  password: 1q2w3e
-  host: localhost
-  socket: /_work_/RubyStack/mysql/tmp/mysql.sock
+# development:
+#   adapter: mysql2
+#   encoding: utf8
+#   reconnect: false
+#   database: rubystack_development
+#   pool: 5
+#   username: root
+#   password: '1q2w3e'
+#   host: localhost
+#   socket: /_work_/RubyStack/mysql/tmp/mysql.sock
 
+development:
+  adapter: postgres
+  database: development
+  host: localhost 
+    
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
