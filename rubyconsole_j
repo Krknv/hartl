@@ -1,0 +1,8 @@
+cd /Users/Alex/Documents/Dropbox/work/RubyOnRails/hartl
+
+#!/bin/sh
+
+PATH="/Applications/RubyStack/memcached/bin:/Applications/RubyStack/perl/bin:/Applications/RubyStack/git/bin:/Applications/RubyStack/nginx/sbin:/Applications/RubyStack/sphinx/bin:/Applications/RubyStack/sqlite/bin:/Applications/RubyStack/php/bin:/Applications/RubyStack/mysql/bin:/Applications/RubyStack/apache2/bin:/Applications/RubyStack/subversion/bin:/Applications/RubyStack/ruby/bin:/Applications/RubyStack/common/bin:$PATH"
+alias mysql="mysql -S /mysql/tmp/mysql.sock"
+rails s
+exec bash --rcfile "/Applications/RubyStack/.bitnamirc"

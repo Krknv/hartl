@@ -7,6 +7,7 @@ gem 'rails', '3.2.7'
 
 # gem 'sqlite3', '1.3.6'
 gem 'mysql2'
+gem 'sqlite3', '1.3.6'
 gem 'heroku'
 gem 'pg'
 # gem 'sqlite3', '1.3.6', :group => :development
@@ -31,6 +32,15 @@ group :development do
 end
 
 gem 'jquery-rails'
+
+group :development do
+  gem 'rspec-rails', '2.6.1'
+end
+
+group :test do
+  gem 'rspec-rails', '2.6.1'
+  gem 'webrat', '0.7.1'
+end
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
