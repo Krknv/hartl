@@ -38,14 +38,16 @@ group :development do
 end
 
 group :test do
-  gem 'rspec-rails', '2.6.1'
-  gem 'webrat', '0.7.1'
-end
+	gem 'rspec-rails', '2.6.1'
+	gem 'webrat', '0.7.1'
 
 	gem "ZenTest"
 	gem "autotest-rails-pure"
 	gem "autotest-growl"
 	gem "autotest-fsevent"
+end
+
+
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
