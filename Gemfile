@@ -7,7 +7,7 @@ gem 'rails', '3.2.7'
 
 # gem 'sqlite3', '1.3.6'
 gem 'mysql2'
-gem 'sqlite3', '1.3.6'
+# gem 'sqlite3', '1.3.6'
 gem 'heroku'
 gem 'pg'
 # gem 'sqlite3', '1.3.6', :group => :development
@@ -26,6 +26,7 @@ group :assets do
 end
 
 group :development do
+	gem 'sqlite3', '1.3.6'
 	gem 'rspec-rails', '2.6.1'
 # gem 'postgres-pr'
  	
